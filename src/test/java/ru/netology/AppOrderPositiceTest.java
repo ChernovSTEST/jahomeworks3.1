@@ -39,8 +39,8 @@ public class AppOrderPositiceTest {
     void shouldSubmitValidFormAndDisplaySuccessMessage() {
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Олег Петров-Сидоров");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79999999999");
-        driver.findElement(By.cssSelector("[data-test-id='agreement'] input")).click();
-        driver.findElement(By.cssSelector(".button.button")).click();
+        driver.findElement(By.cssSelector(".checkbox__box")).click();
+        driver.findElement(By.cssSelector(".button__text")).click();
         var actualtext = driver.findElement(By.cssSelector("[data-test-id='order-success']")).getText().trim();
         assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", actualtext);
     }
