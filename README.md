@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/b6e7fwxb84bscbsf?svg=true)](https://ci.appveyor.com/project/ChernovSTEST/jahomeworks3-1)
+![example workflow](https://github.com/ChernovSTEST/jahomeworks3.1/actions/workflows/grable.yml/badge.svg)
 
 # Домашнее задание к занятию «2.1. Тестирование веб-интерфейсов»
 
